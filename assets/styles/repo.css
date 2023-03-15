@@ -1,0 +1,14 @@
+.repo__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.6rem;
+}
+.repo__stats {
+  display: flex;
+  gap: 0.5rem;
+}
+.repo__stars, .repo__forks {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=repo.css.map */

@@ -1,0 +1,22 @@
+.alert {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  border-radius: 0.8rem;
+  padding: 1rem 4rem;
+
+  &-error {
+    background: red;
+    color: white;
+  }
+
+  &-success {
+    background: green;
+    color: white;
+  }
+
+  &[data-hide] {
+    transition: 500ms all;
+    opacity: 0;
+  }
+}

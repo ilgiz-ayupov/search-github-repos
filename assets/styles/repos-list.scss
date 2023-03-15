@@ -1,0 +1,12 @@
+.repos-list {
+  width: 100%;
+  margin-top: 3rem;
+  padding: 2rem;
+  background: white;
+  border-radius: 0.8rem;
+  overflow: auto;
+
+  &__item:not(:last-of-type) {
+    margin-bottom: 2rem;
+  }
+}

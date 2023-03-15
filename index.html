@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>GitHub - Search Repositories</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="app" class="wrapper">
+        <form id="search-repos-form" class="search-repos">
+          <div class="search-repos__block">
+            <label for="search-repos-input" class="search-repos__label"
+              >Введите название репозитория:
+            </label>
+            <input
+              id="search-repos-input"
+              name="repoName"
+              type="search"
+              class="search-repos__input"
+              placeholder=""
+            />
+          </div>
+          <button id="search-repos-submit" class="search-repos__submit">
+            Поиск
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./assets/scripts/utils.js"></script>
+    <script src="./assets/scripts/alert.js"></script>
+    <script src="./assets/scripts/error.js"></script>
+    <script src="./assets/scripts/repos.js"></script>
+    <script src="./assets/scripts/app.js"></script>
+  </body>
+</html>

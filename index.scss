@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html,
+body,
+.wrapper,
+.container {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  background: lightcyan;
+}
+
+.container {
+  width: 80%;
+  padding: 0 1rem;
+  margin: 0 auto;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input[data-state="invalid"] {
+  border: 2px solid red;
+  color: red;
+
+  &:focus {
+    outline: red;
+  }
+}
+
+@import "./assets/styles/search-repos.scss";
+@import "./assets/styles/repos-list.scss";
+@import "./assets/styles/repo.scss";
+@import "./assets/styles/alert.scss";
